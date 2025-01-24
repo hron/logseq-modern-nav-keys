@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> { config = { allowUnfree = true; }; } }:
 
 with pkgs; mkShell {
-  name = "logseq-sample-plugin";
+  name = "logseq-modern-nav-keys";
 
   buildInputs = [
     nodejs_18
